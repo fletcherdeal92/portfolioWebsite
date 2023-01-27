@@ -1,5 +1,6 @@
 body {
-    background-color: #4a6d7c;
+    /* background-color: #4a6d7c; */
+    background-color: aqua;
     width: 100vw;
     height: 100vh;
     display: flex;
