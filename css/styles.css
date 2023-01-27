@@ -17,6 +17,11 @@ body {
     justify-content: center;
 }
 
+img {
+    width: 40vw;
+    margin-bottom: 30px;
+}
+
 h1, h2, p {
     text-align: center;
 }
@@ -25,14 +30,36 @@ h1 {
     font-size: 3rem;
     font-weight: 400;
     color: #f3f8f2;
+    margin-bottom: 45px;
+}
+
+h2, .email {
+    color: #f3a712;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #090909;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .email {
-    font-style: italic;
+    font-style: oblique;
     font-weight: 400;
+    font-size: 17px;
+}
+
+/* mobile site */
+@media only screen and (max-width: 480px) {
+    .main {
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        width: 70vw;
+    }
 }
